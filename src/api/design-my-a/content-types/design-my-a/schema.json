@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "design_my_as",
+  "info": {
+    "singularName": "design-my-a",
+    "pluralName": "design-my-as",
+    "displayName": "DesignMyA",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projectname": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "art": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content_design_my_as": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::content-design-my-a.content-design-my-a",
+      "mappedBy": "design_my_a"
+    }
+  }
+}

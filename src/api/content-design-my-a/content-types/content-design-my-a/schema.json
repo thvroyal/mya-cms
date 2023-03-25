@@ -1,0 +1,94 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_design_my_as",
+  "info": {
+    "singularName": "content-design-my-a",
+    "pluralName": "content-design-my-as",
+    "displayName": "Content DesignMyA",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "art1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title1": {
+      "type": "string"
+    },
+    "descriptiontitle1": {
+      "type": "text"
+    },
+    "art2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "title2": {
+      "type": "string"
+    },
+    "descriptiontitle2": {
+      "type": "text"
+    },
+    "art3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "title3": {
+      "type": "string"
+    },
+    "descriptiontitle3": {
+      "type": "text"
+    },
+    "art4": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "art5": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "design_my_a": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::design-my-a.design-my-a",
+      "inversedBy": "content_design_my_as"
+    }
+  }
+}
