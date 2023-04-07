@@ -18,12 +18,7 @@ module.exports = ({ env }) => [
     },
   },
   "strapi::cors",
-  {
-    name: "strapi::poweredBy",
-    config: {
-      poweredBy: "Mỹ Á Interior <myainterior.com>",
-    },
-  },
+  "strapi::poweredBy",
   "strapi::logger",
   "strapi::query",
   "strapi::body",
