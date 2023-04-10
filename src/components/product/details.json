@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_product_details",
+  "info": {
+    "displayName": "Details"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "size": {
+      "type": "string"
+    },
+    "material": {
+      "type": "text"
+    }
+  }
+}

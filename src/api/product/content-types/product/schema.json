@@ -15,16 +15,30 @@
     "name": {
       "type": "string"
     },
+    "productId": {
+      "type": "string"
+    },
     "images": {
       "type": "media",
       "multiple": true,
       "required": false,
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos",
+        "audios"
       ]
     },
-    "description": {
-      "type": "richtext"
+    "details": {
+      "displayName": "Details",
+      "type": "component",
+      "repeatable": false,
+      "component": "product.details"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
     }
   }
 }
