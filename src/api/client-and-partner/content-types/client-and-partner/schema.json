@@ -4,7 +4,8 @@
   "info": {
     "singularName": "client-and-partner",
     "pluralName": "client-and-partners",
-    "displayName": "Client & Partner"
+    "displayName": "Client & Partner",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -16,12 +17,12 @@
       "required": true
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true,
-      "required": true
+      ]
     },
     "url": {
       "type": "string"
