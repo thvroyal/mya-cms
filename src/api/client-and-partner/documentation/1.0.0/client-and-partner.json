@@ -1,5 +1,5 @@
 {
-  "/client-and-sponsors": {
+  "/client-and-partners": {
     "get": {
       "responses": {
         "200": {
@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ClientAndSponsorListResponse"
+                "$ref": "#/components/schemas/ClientAndPartnerListResponse"
               }
             }
           }
@@ -64,7 +64,7 @@
         }
       },
       "tags": [
-        "Client-and-sponsor"
+        "Client-and-partner"
       ],
       "parameters": [
         {
@@ -169,7 +169,7 @@
           }
         }
       ],
-      "operationId": "get/client-and-sponsors"
+      "operationId": "get/client-and-partners"
     },
     "post": {
       "responses": {
@@ -178,7 +178,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ClientAndSponsorResponse"
+                "$ref": "#/components/schemas/ClientAndPartnerResponse"
               }
             }
           }
@@ -235,23 +235,23 @@
         }
       },
       "tags": [
-        "Client-and-sponsor"
+        "Client-and-partner"
       ],
       "parameters": [],
-      "operationId": "post/client-and-sponsors",
+      "operationId": "post/client-and-partners",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/ClientAndSponsorRequest"
+              "$ref": "#/components/schemas/ClientAndPartnerRequest"
             }
           }
         }
       }
     }
   },
-  "/client-and-sponsors/{id}": {
+  "/client-and-partners/{id}": {
     "get": {
       "responses": {
         "200": {
@@ -259,7 +259,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ClientAndSponsorResponse"
+                "$ref": "#/components/schemas/ClientAndPartnerResponse"
               }
             }
           }
@@ -316,7 +316,7 @@
         }
       },
       "tags": [
-        "Client-and-sponsor"
+        "Client-and-partner"
       ],
       "parameters": [
         {
@@ -330,7 +330,7 @@
           }
         }
       ],
-      "operationId": "get/client-and-sponsors/{id}"
+      "operationId": "get/client-and-partners/{id}"
     },
     "put": {
       "responses": {
@@ -339,7 +339,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ClientAndSponsorResponse"
+                "$ref": "#/components/schemas/ClientAndPartnerResponse"
               }
             }
           }
@@ -396,7 +396,7 @@
         }
       },
       "tags": [
-        "Client-and-sponsor"
+        "Client-and-partner"
       ],
       "parameters": [
         {
@@ -410,13 +410,13 @@
           }
         }
       ],
-      "operationId": "put/client-and-sponsors/{id}",
+      "operationId": "put/client-and-partners/{id}",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/ClientAndSponsorRequest"
+              "$ref": "#/components/schemas/ClientAndPartnerRequest"
             }
           }
         }
@@ -487,7 +487,7 @@
         }
       },
       "tags": [
-        "Client-and-sponsor"
+        "Client-and-partner"
       ],
       "parameters": [
         {
@@ -501,7 +501,7 @@
           }
         }
       ],
-      "operationId": "delete/client-and-sponsors/{id}"
+      "operationId": "delete/client-and-partners/{id}"
     }
   }
 }

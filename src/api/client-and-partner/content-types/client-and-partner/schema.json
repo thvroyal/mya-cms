@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_and_partners",
+  "info": {
+    "singularName": "client-and-partner",
+    "pluralName": "client-and-partners",
+    "displayName": "Client & Partner"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "client",
+        "partner"
+      ],
+      "required": true
+    }
+  }
+}
