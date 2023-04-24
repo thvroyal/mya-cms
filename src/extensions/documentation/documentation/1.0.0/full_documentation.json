@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-04-24T15:16:48.219Z"
+    "x-generation-date": "2023-04-24T15:26:45.306Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -16411,6 +16411,9 @@
                     },
                     {
                       "$ref": "#/components/schemas/LayoutParagraph"
+                    },
+                    {
+                      "$ref": "#/components/schemas/LayoutRichText"
                     }
                   ]
                 }
@@ -16468,6 +16471,9 @@
                     },
                     {
                       "$ref": "#/components/schemas/LayoutParagraph"
+                    },
+                    {
+                      "$ref": "#/components/schemas/LayoutRichText"
                     }
                   ]
                 }
@@ -17432,6 +17438,9 @@
                     },
                     {
                       "$ref": "#/components/schemas/LayoutParagraph"
+                    },
+                    {
+                      "$ref": "#/components/schemas/LayoutRichText"
                     }
                   ]
                 }
@@ -18429,6 +18438,9 @@
                     },
                     {
                       "$ref": "#/components/schemas/LayoutParagraph"
+                    },
+                    {
+                      "$ref": "#/components/schemas/LayoutRichText"
                     }
                   ]
                 }
@@ -19393,6 +19405,9 @@
                     },
                     {
                       "$ref": "#/components/schemas/LayoutParagraph"
+                    },
+                    {
+                      "$ref": "#/components/schemas/LayoutRichText"
                     }
                   ]
                 }
@@ -20990,6 +21005,23 @@
             "type": "string"
           },
           "text": {
+            "type": "string"
+          }
+        }
+      },
+      "LayoutRichText": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "__component": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "title": {
             "type": "string"
           }
         }

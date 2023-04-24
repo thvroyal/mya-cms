@@ -25,7 +25,8 @@
       "type": "dynamiczone",
       "components": [
         "layout.only-image",
-        "layout.paragraph"
+        "layout.paragraph",
+        "layout.rich-text"
       ]
     },
     "name": {
