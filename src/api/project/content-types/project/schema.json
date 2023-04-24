@@ -47,6 +47,9 @@
     },
     "date": {
       "type": "date"
+    },
+    "featured": {
+      "type": "boolean"
     }
   }
 }
