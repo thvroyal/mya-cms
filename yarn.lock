@@ -1006,6 +1006,13 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
+"@babel/runtime@^7.21.0":
+  version "7.22.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.5.tgz#8564dd588182ce0047d55d7a75e93921107b57ec"
+  integrity sha512-ecjvYlnAaZ/KVneE/OdKYBYfgXV3Ptu6zQWmgEF7vwKhQnvVS6bjMD2XYgj+SNvQ1GfK/pjgokfPkC/2CO8CuA==
+  dependencies:
+    regenerator-runtime "^0.13.11"
+
 "@babel/template@7.18.10":
   version "7.18.10"
   resolved "https://registry.npmjs.org/@babel/template/-/template-7.18.10.tgz"
@@ -2735,6 +2742,14 @@
     "@strapi/utils" "4.6.0"
     fs-extra "10.0.0"
 
+"@strapi/provider-upload-local@^4.11.3":
+  version "4.11.3"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-local/-/provider-upload-local-4.11.3.tgz#5e567aef2563f8b0d0da6032baf42963adc9839b"
+  integrity sha512-XGWbavagWAWroGQI61zxY1gAQb/ghUQI1GrgUeKLj+kNKzPJWmod7MuwGSRQh73jpZ8ahfkhnW3OzEpNj1yKcg==
+  dependencies:
+    "@strapi/utils" "4.11.3"
+    fs-extra "10.0.0"
+
 "@strapi/strapi@4.6.0":
   version "4.6.0"
   resolved "https://registry.npmjs.org/@strapi/strapi/-/strapi-4.6.0.tgz"
@@ -2806,6 +2821,18 @@
     lodash "4.17.21"
     prettier "2.7.1"
     typescript "4.6.2"
+
+"@strapi/utils@4.11.3":
+  version "4.11.3"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.11.3.tgz#d0c75a4bb5ff95ec6ea64e6561d2432e2269d2fd"
+  integrity sha512-8sRa8GMj5ImWV/5oGnMfRkOmIFA8/BTaxestvwjpr84XV+iTWvEWBjIdbWw42jKgqkSeeY9EeVqe5w57eboDSg==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.30.0"
+    http-errors "1.8.1"
+    lodash "4.17.21"
+    p-map "4.0.0"
+    yup "0.32.9"
 
 "@strapi/utils@4.6.0":
   version "4.6.0"
@@ -4958,6 +4985,13 @@ date-fns@2.29.3:
   version "2.29.3"
   resolved "https://registry.npmjs.org/date-fns/-/date-fns-2.29.3.tgz"
   integrity sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==
+
+date-fns@2.30.0:
+  version "2.30.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
+  integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
+  dependencies:
+    "@babel/runtime" "^7.21.0"
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
